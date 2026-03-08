@@ -1,7 +1,8 @@
-import torch
+import torch, glob
 
-x = torch.load("data/processed/voxels/test__armadillo.pt")
-print(x.shape)
-print(x.sum())
+for f in glob.glob("data/processed/voxels/*.pt")[:10]:
+    vox = torch.load(f)
+    coords = vox.nonzero()
 
-import glob; print(len(glob.glob("data/processed/voxels/*.pt")))
+    size = coords.max(0).values - coords.min(0).values
+    print(f, size.tolist())
