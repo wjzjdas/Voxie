@@ -1,0 +1,3 @@
+{"id": "test__armadillo", "source_path": "test/armadillo.obj", "voxel_path": "voxels/test__armadillo.pt", "category": "test", "resolution": 32, "occupied_voxels": 3567, "split": "val"}
+{"id": "test__beast", "source_path": "test/beast.obj", "voxel_path": "voxels/test__beast.pt", "category": "test", "resolution": 32, "occupied_voxels": 1646, "split": "test"}
+{"id": "test__cow", "source_path": "test/cow.obj", "voxel_path": "voxels/test__cow.pt", "category": "test", "resolution": 32, "occupied_voxels": 2317, "split": "train"}
