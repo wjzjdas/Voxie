@@ -1,6 +1,3 @@
-Below is a **clean, professional `README.md`** tailored to your current project state. It explains the goal, results, structure, and how to run things. You can paste it directly into `README.md` in your repo root.
-
----
 
 # Voxie: Text-Conditioned 3D Voxel Generation
 
