@@ -1,4 +1,4 @@
-#python -m scripts.evaluate_vae
+#python -m scripts.eval.evaluate_vae
 
 import numpy as np
 import torch

@@ -1,4 +1,4 @@
-#RUN WITH: python -m scripts.test_dataset
+#python -m scripts.debug.test_dataset
 
 from torch.utils.data import DataLoader
 from voxie.data.voxel_dataset import VoxelDataset

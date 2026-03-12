@@ -1,3 +1,4 @@
+#python -m scripts.visualize.visualize_generation --category Laptop --threshold 0.6
 import argparse
 import random
 

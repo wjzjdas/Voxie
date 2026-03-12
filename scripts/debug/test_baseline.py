@@ -1,4 +1,4 @@
-#RUN WITH: python -m scripts.test_baseline
+#python -m scripts.debug.test_baseline
 
 from voxie.data.voxel_dataset import VoxelDataset
 from voxie.baselines.random_retrieval import RandomRetrievalBaseline
